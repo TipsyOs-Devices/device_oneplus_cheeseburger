@@ -54,6 +54,7 @@
     <!--<integer name="config_autoBrightnessBrighteningLightFastDebounce">500</integer>-->
     <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
+    <integer name="config_autoBrightnessLightSensorRate">500</integer>
 
     <!-- Minimum screen brightness allowed by the power manager. -->
     <integer name="config_screenBrightnessDim">6</integer>
