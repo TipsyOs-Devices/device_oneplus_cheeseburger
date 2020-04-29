@@ -37,6 +37,11 @@
     <!-- Button brightness -->
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
 
+    <bool name="config_button_brightness_support">true</bool>
+    <integer name="config_button_brightness_default">128</integer>
+
+    <bool name="config_buttonLightOnKeypressOnly">true</bool>
+
     <!-- Internal default to navigation bar value -->
     <bool name="config_defaultToNavigationBar">false</bool>
 
