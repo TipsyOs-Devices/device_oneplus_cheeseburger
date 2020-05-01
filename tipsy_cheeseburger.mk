@@ -22,7 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 
 # Inherit some common Tipsy stuff.
-$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
+$(call inherit-product, vendor/tipsy/config/common.mk)
+$(call inherit-product, vendor/tipsy/config/gsm.mk)
 
 PRODUCT_NAME := tipsy_cheeseburger
 PRODUCT_DEVICE := cheeseburger
